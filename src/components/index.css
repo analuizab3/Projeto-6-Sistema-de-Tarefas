@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  width: 400px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  padding: 20px;
+}
+
+.linha {
+  display: flex;
+  flex-direction: row; 
+  align-items: flex-start; 
+  gap: 20px; 
+}
+
+.addList {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  color: black;
+  background-color: white;
+  margin-left: 10px;
+  border-radius: 3px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+input {
+  padding: 5px 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: inside;
+  text-align: left;
+  margin-top: 20px;
+}
