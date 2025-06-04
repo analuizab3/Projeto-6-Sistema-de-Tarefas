@@ -1,7 +1,6 @@
-import ToDoList from "./components/ListaTarefas"
-import './main.css'
+import ToDoList from "./components/ListaTarefas";
+import './App.css'
+
 export default function App(){
-  return(
-    <ListaTarefas/>
-  )
+  return( <ToDoList/>)
 }
